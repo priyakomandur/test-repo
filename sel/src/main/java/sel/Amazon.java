@@ -18,6 +18,7 @@ driver.findElement(By.xpath("//a[@id='nav-link-shopall']/span[2]")).click();
 driver.manage().timeouts().implicitlyWait(1000, TimeUnit.SECONDS);
 driver.findElement(By.xpath("//div[@class='fsdDeptCol']/a[5]")).click();
 driver.close();
+driver.quit();
 	}
 
 }
