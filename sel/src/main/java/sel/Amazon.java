@@ -19,6 +19,7 @@ driver.manage().timeouts().implicitlyWait(1000, TimeUnit.SECONDS);
 driver.findElement(By.xpath("//div[@class='fsdDeptCol']/a[5]")).click();
 driver.close();
 driver.quit();
+		//added new line
 	}
 
 }
